@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    position: absolute;
+    width: 800px;
+    height: 625px;
+    left: 566px;
+    top: 0px;
+}
+.titulo1{
+    position: absolute;
+    width: 519px;
+    height: 139px;
+    left: 35px;
+    top: 30px;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    line-height: 228px;
+    color: #4bdd3d;
+}
+.linha{
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 505px;
+    top: 153px;
+    border: 2px solid #4bdd3d;
+}
+.titulo2{
+    position: absolute;
+    left: 35px;
+    top: 150px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 70px;
+    line-height: 145px;
+    color: #474040;
+}
+p{
+    position: absolute;
+    width: 400px;
+    height: 285px;
+    left: 41px;
+    top: 295px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    height: 35px;
+    background-color: #474040;
+    border: solid 1px #474040;
+    margin-top: 410px;
+    margin-left: 40px;
+    border-radius: 14px;
+    transition: all 1s;
+}
+header{
+    /*background-color: #000000AA;*/
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1vw;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+}
+ul{
+    display: flex;
+    gap:300px;
+    
+}
+li{
+    display: flex;
+    
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+.menu{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    width: 65px;
+    height: 25px;
+    border: solid 2px #4bdd3d;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    -webkit-text-stroke: 1px black;
+    font-size: 20px;
+}
+header ul::after{
+    content: "B";
+    -webkit-text-stroke: 1px #4bdd3d;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    z-index: 1;
+    font-size: 20px;
+}
