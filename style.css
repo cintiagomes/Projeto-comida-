@@ -151,6 +151,15 @@ h3{
     text-align: left;
     line-height: 15px;
 }
+footer p{
+        position: absolute;
+        bottom: 0;
+        color: #474040;
+        left: 200px;
+        top: 595px;
+        font-family:'Open Sans Condensed', sans-serif;
+        font-size: 14px;
+}
 /* ul{
     display: flex;
     gap:300px;
