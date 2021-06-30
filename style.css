@@ -12,26 +12,37 @@ img{
     z-index: -1;
 
 }
+.linhas2{
+    background-color: rgb(39, 39, 63);
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    left: 1270px;
+    top: 20px;
+    border: 1px solid rgb(39, 39, 63);
+    box-shadow: 0px 20px 0px rgb(39, 39, 63);
+    z-index: 1;
+}
 .titulo1{
     position: absolute;
-    width: 519px;
-    height: 139px;
+    width: 549px;
+    height: 149px;
     left: 35px;
     top: 30px;
     font-family:'Open Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 75px;
+    font-size: 70px;
     line-height: 228px;
-    color: #4bdd3d;
+    color: rgb(7,215,101);
 }
 .linha{
     position: absolute;
-    width: 80px;
+    width: 100px;
     height: 0px;
-    left: 505px;
+    left: 465px;
     top: 153px;
-    border: 1px solid #4bdd3d;
+    border: 1px solid rgb(7,215,101);
 }
 .titulo2{
     position: absolute;
@@ -40,7 +51,7 @@ img{
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 68px;
     line-height: 145px;
     color: #474040;
 }
@@ -68,11 +79,10 @@ main a{
     font-size: 16px;
     width: 140px;
     height: 35px;
-    background-color: #474040;
-    border: solid 1px #474040;
-    margin-top: 410px;
+    background-color: rgb(7,215,101);
+    border: solid 1px rgb(7,215,101);
+    margin-top: 380px;
     margin-left: 40px;
-    border-radius: 14px;
     transition: all 1s;
 }
 header{
@@ -88,7 +98,7 @@ header{
     font-size: 17px; */
     display: flex;
     margin-left: 40px;
-    width: calc(40vw - 40px);
+    width: calc(40vw - 60px);
     height: 50px;
     align-items: center;
     justify-content: space-between;
@@ -97,7 +107,7 @@ header{
 }
 header ul{
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 header li{
     list-style: none;
@@ -105,18 +115,19 @@ header li{
 header li a{
     text-decoration: none;
     color: rgb(160, 160, 160);
-    padding: 3px 6px;
+    padding: 3px 10px;
     border: solid 1px transparent;
-    border-radius: 10px;
+    border-radius: 0px;
+    font-size: 15px;
 }
 header li a:hover{
     color: black;
     /* display: block; */
-    border-color:  #4bdd3d;
+    border-color:  rgb(7,215,101);
     
 }
 .logo span:first-child{
-    color: rgb(19,201,99);
+    color: rgb(7,215,101);
 }
 .receita{
     position: absolute;
@@ -128,16 +139,17 @@ header li a:hover{
     font-family: Comfortaa;
 }
 h3{
-    margin-bottom: 18px;
-    margin-top: 13px;
+    margin-bottom: 15px;
+    margin-top: 20px;
     margin-left: 9px;
-    color: rgb(19,201,99);
+    color: rgb(7,215,101);
 }
 .receita p{
-    font-size: 14px;
-    width: 185px;
+    font-size: 13px;
+    width: 180px;
     margin-left: 10px;
     text-align: left;
+    line-height: 15px;
 }
 /* ul{
     display: flex;
